@@ -1,33 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<style type="text/css">
-/* unvisited link */
-a:link {
-    color: #334bd3;
-}
-/* visited link */
-a:visited {
-    color: #334bd3;
-}
-/* mouse over link */
-a:hover {
-    color: #334bd3;
-}
-/* selected link */
-a:active {
-    color: #334bd3;
-}
-</style>
-
 <head>
   <meta charset="utf-8">
-  <title>Weiwei Duan | 段伟玮</title>
-  <meta name="description" content="Machine learning researcher and R developer based in Cambridge, MA.">
+  <title>Publications - Weiwei Duan | 段伟玮</title>
+  <meta name="description" content="Weiwei Duan's publications.">
   <meta name="author" content="Weiwei Duan | 段伟玮">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" type="text/css">
-  <link rel="icon" type="image/jpg" href="../images/icon.jpg">
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <style>.nanx-footer{font-size:90%;}.nanx-footer a{font-weight:500;color:#495057}.nanx-footer a:hover{color:#007bff}</style>
+  <style>author {font-weight: bold; text-decoration: underline;}</style>
 </head>
 
 <body>
@@ -39,17 +22,14 @@ a:active {
       <div class="col-md-10 offset-1">
         <div class="row">
 
-          <div class="col-md-3">
-            <img src="../images/person.jpg" class="img-fluid d-block rounded">
+          <div class="col-md-2">
+            <img src="../images/Weiwei_Duan_img.jpg" class="img-fluid d-block rounded">
           </div>
 
           <div class="col-md-9">
-            <h1 class="display-4"> Weiwei Duan | 段伟玮 </h1>
-            <p><br> Ph.D. Student <br>
-               Computer Science Department <br>
-               Viterbi School of Engineering <br>
-               University of Southern California </p>
-            <p class="font-italic"> Email: <a href="mailto:yijunlin@usc.edu">yijunlin@usc.edu</a></p>
+            <h1 class="display-4">Weiwei Duan</h1>
+<!--             <p class="text-muted">Senior Data Scientist. Seven Bridges Genomics, Inc. Cambridge, MA, USA.<br>
+              PhD Candidate. Statistics. Central South University. Changsha, Hunan, China.</p> -->
           </div>
 
         </div>
@@ -64,21 +44,18 @@ a:active {
     <div class="row">
       <div class="col-md-10 offset-1">
         <hr>
-        <ul class="nav nav-tabs nav-fill">
+        <ul class="nav nav-pills nav-justified">
           <li class="nav-item">
-            <a href="../index.html" class="nav-link">Home</a>
+            <a href="/" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="active nav-link">Projects</a>
+            <a href="#" class="active nav-link">Publications</a>
           </li>
           <li class="nav-item">
-            <a href="../publications/index.html" class="nav-link">Publications</a>
+            <a href="/projects/" class="nav-link">Projects</a>
           </li>
           <li class="nav-item">
-            <a href="../working/index.html" class="nav-link">Working Experience</a>
-          </li>
-          <li class="nav-item">
-            <a href="../honors/index.html" class="nav-link">Honors & Awards</a>
+            <a href="/cv/" class="nav-link">Curriculum Vitae</a>
           </li>
         </ul>
         <hr>
@@ -96,17 +73,17 @@ a:active {
             <img src="../images/pm25forecast.png" class="img-fluid" alt="msaenet-icon" />
           </div>
           <div class="col-md-9">
-            <h4>Exploiting Spatiotemporal Patterns for Accurate Air Quality Forecasting using Deep Learning</h4>
+            <h4>Exploiting Context in Cartographic Evolutionary Documents to Extract and Build Linked Spatial-temporal Datasets</h4>
             <p class="font-italic">
-              Spatiotemporal Patterns Detection<br>
-              Deep Learning &middot; Tensor Flow &middot; Postgres &middot; PostGIS
+              Geographic Features Detection<br>
+              Convolutional Neuroal Networks &middot; Deep Learning &middot; Semantic Web &middot; GIS &middot;Keras
             </p>
             <p>
-              <li>Integrated a deep learning model, <a href="../publications/Diffusion convolutional recurrent neural network Data-driven traffic forecasting.pdf"> <i>DCRNN (Li, Y. et al. 2018)</i></a>, and <a href="../publications/Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution.pdf"><i>Geo-Context</i></a> to represent the similarity between neighborhoods with regards to air quality and to capture the spatial and temporal dependency of air quality data for forecasting</li>
-              <li>Built an air quality forecasting model to predict PM2.5 concentrations in next 24 hours</li>
+              <li>Building geographic data conflation algorithms to automatically generate high quality training data for image recognition using deep learning models</li>
+              <li>Build Fully Convolutional Networks to accurately delineate geographic features from large amounts of georeferenced historical map scans</li>
             </p>
             <p>
-              <!-- <a href="../publications/Exploiting Spatiotemporal Ptterns for Accurate Air Quality.pdf" class="btn btn-outline-primary">Paper</a> -->
+              <a href="../publications/Exploiting Spatiotemporal Ptterns for Accurate Air Quality.pdf" class="btn btn-outline-primary">Paper</a>
               <a href="https://github.com/spatial-computing/air-quality-forecasting-model" class="btn btn-outline-primary">GitHub</a>
             </p>
           </div>
@@ -127,19 +104,20 @@ a:active {
             <img src="../images/pm25prediction.png" class="img-fluid"/>
           </div>
           <div class="col-md-9">
-            <h4>Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution</h4>
+            <h4>Modeling, Integrating, and Search Across Multiple Geographic Features from a Variety of Geospatial Sources </h4>
             <p class="font-italic">
-              Spatial Event Detection<br>
-              Spark &middot; Spark MLlib &middot; Scala &middot; Postgres &middot; PostGIS
+              Data Integration<br>
+              Semantic Web &middot; Knowledge Graph &middot; Scala &middot; MongoDB 
             </p>
             <p>
-              <li>Integrated <i>OpenStreetMap</i> and other spatial data sources into data analytic framework</li>
-              <li>Built an expert-free model for predicting PM2.5 concentrations at a fine spatial resolution</li>
+              <li>Build a web crawler to collect geo-temporal data from multiple online sources</li>
+              <li>Extend an existing geo-temporal ontology and map data to the ontology to generate knowledge graphs</li>
+              <li>Build the technology to enable an efficient workflow of predictive analytics by using knowledge graphs</li>
             </p>
             <p>
               <a href="../publications/Mining Public Datasets for Modeling Intra-City PM2.5 Concentrations at a Fine Spatial Resolution.pdf" class="btn btn-outline-primary">Paper</a>
               <a href="https://github.com/spatial-computing/air-quality-prediction-model" class="btn btn-outline-primary" target="_blank">GitHub</a>
-              <a href="http://jonsnow.usc.edu/" class="btn btn-outline-primary" target="_blank">Website</a>
+<!--               <a href="http://jonsnow.usc.edu/" class="btn btn-outline-primary" target="_blank">Website</a> -->
             </p>
           </div>
         </div>
@@ -150,136 +128,15 @@ a:active {
 
 <div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
 
-<div class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="../images/metrans.jpg" class="img-fluid"/>
-          </div>
-          <div class="col-md-9">
-            <h4>Metrans: Bus Delay Prediction</h4>
-            <p class="font-italic">
-              GPS Trajectory Analysis &middot; Map Matching<br>
-              Java &middot; Postgres &middot; PostGIS
-            </p>
-            <p>
-              <li>Built an algorithm by incorporating <i>LA Bus GPS</i> data and <i>LA GTFS</i> data to detect bus delay on bus stops</li>
-              <li>Built a dashboard to show the average estimated delay time of each bus stop</li>
-            </p>
-            <p>
-              <a href="http://gdt.usc.edu/METRANS/dashboard/" class="btn btn-outline-primary" target="_blank">Dashboard</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
-
-<div class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="../images/unlocking.jpg" class="img-fluid"/>
-          </div>
-          <div class="col-md-9">
-            <h4>Unlocking Maps: Text Recognition in Historical Map</h4>
-            <p class="font-italic">
-              Text Recognition<br>
-              OpenCV &middot; C# &middot; SVM &middot; Grab-cut &middot; Python
-            </p>
-            <p>
-              <li>Utilized <i>Strabo</i> (a map-processing software) for the automatic extraction of text labels from historical maps</li>
-              <li>Automatically evaluated <i>Strabo</i> with 15 maps to explore ways for improving the accuracy</li>
-            </p>
-            <p>
-              <a href="https://github.com/spatial-computing/strabo-text-recognition" class="btn btn-outline-primary" target="_blank">GitHub</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
-
-<div class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="../images/movieLens.jpg" class="img-fluid" />
-          </div>
-          <div class="col-md-9">
-            <h4>Movie Recommendation System Competition</h4>
-            <p class="font-italic">
-              Recommender System<br>
-              Spark &middot; Spark MLlib &middot; Scala &middot; Collaborating Filtering (CF)
-            </p>
-            <p>
-              <li>Built a hybrid recommender system to predict movie ratings</li>
-              <li>Achieved RMSE = 0.90 on the <a href="https://grouplens.org/datasets/movielens/" target="_blank"><i>MovieLens</i></a> dataset (20M records), comparing to a Model-based CF with RMSE = 1.22</li>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
-
-<div class="py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="../images/periodic.jpg" class="img-fluid"/>
-          </div>
-          <div class="col-md-9">
-            <h4>Mining Periodic Pattern in People's Trajectory</h4>
-            <p class="font-italic">
-              GPS Trajectory Pattern Recognitions<br>
-            </p>
-            <p>
-              <li>Clustered stationary points of users using <i>StayPoint</i> and <i>OPTICS</i> algorithm for identifying potential locations that users often visit</li>
-              <li>Successfully mined non-strict (with a threshold) periodic patterns in people’s trajectory data with multiple periods (e.g., weekly, biweekly) using a modified FP-Growth algorithm</li>
-              <li>Predicted people's schedule and recommended nearby locations</li>
-            </p>
-            <p>
-              <a href="../projects/undergraduate.pdf" class="btn btn-outline-primary class="btn btn-outline-primary" target="_blank">Undergraduate thesis</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 offset-1">
-        <hr>
-          <ul class="list-inline">
-            <li class="list-inline-item text-muted"> &copy; 2018 Yijun Lin</li>
-            <li class="list-inline-item"><a href="https://github.com/yijunlin" target="_blank" class="text-muted">GitHub</a></li>
-            <li class="list-inline-item"><a href="https://www.linkedin.com/in/yijunlin" target="_blank" class="text-muted">LinkedIn</a></li>
-          </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-66394392-1', 'auto');
+    ga('send', 'pageview');
+</script>
+    
 </body>
 
 </html>
